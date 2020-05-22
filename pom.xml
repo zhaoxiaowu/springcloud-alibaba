@@ -13,5 +13,9 @@
         <module>nacos-customer</module>
         <module>nacos-privider</module>
         <module>common-parent</module>
+        <module>nacos-customer-feign</module>
+        <module>nacos-gateway</module>
+        <module>nacos-config</module>
+        <module>sentinel-demo</module>
     </modules>
 </project>

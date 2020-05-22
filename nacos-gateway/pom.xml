@@ -9,19 +9,20 @@
         <relativePath>../common-parent/pom.xml</relativePath>
     </parent>
     <groupId>com.zxw</groupId>
-    <artifactId>nacos-privider</artifactId>
+    <artifactId>nacos-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nacos-privider</name>
-    <description>nacos 服务提供方</description>
+    <name>nacos-gateway</name>
+    <description>nacos网关</description>
+
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
     </dependencies>
 

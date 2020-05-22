@@ -9,10 +9,11 @@
         <relativePath>../common-parent/pom.xml</relativePath>
     </parent>
     <groupId>com.zxw</groupId>
-    <artifactId>nacos-privider</artifactId>
+    <artifactId>nacos-customer-feign</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nacos-privider</name>
-    <description>nacos 服务提供方</description>
+    <name>nacos-customer-feign</name>
+    <description>nacos服务消费 feign调用</description>
+
 
     <dependencies>
         <dependency>
@@ -22,6 +23,10 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 
